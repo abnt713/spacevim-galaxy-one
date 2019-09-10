@@ -25,7 +25,9 @@
     enable_statusline_mode = false
     filetree_direction = "left"
     bootstrap_before = "myspacevim#before"
-    windows_smartclose = ""
+    after_before = "myspacevim#after"
+    filemanager = 'defx'
+    windows_smartclose = ''
 
 # Enable autocomplete layer
 [[layers]]
@@ -52,9 +54,6 @@ name = 'lang#go'
 [[layers]]
 name = 'lang#python'
 format-on-save = 1
-
-[[layers]]
-name = 'fzf'
 
 [[layers]]
 name = 'tmux'

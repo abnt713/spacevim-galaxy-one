@@ -5,3 +5,4 @@ function! myspacevim#before() abort
 
   let g:vimfiler_ignore_pattern = ['^\.git$', '^\.DS_Store$', '^__pycache__$']
 endfunction
+
