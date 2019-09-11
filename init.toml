@@ -24,9 +24,9 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     filetree_direction = "left"
-    bootstrap_before = "myspacevim#before"
-    after_before = "myspacevim#after"
-    filemanager = 'defx'
+    bootstrap_before = "galaxyone#before"
+    after_before = "galaxyone#after"
+    filemanager = 'vimfiler'
     windows_smartclose = ''
 
 # Enable autocomplete layer
@@ -57,3 +57,6 @@ format-on-save = 1
 
 [[layers]]
 name = 'tmux'
+
+[[layers]]
+name = 'fzf'

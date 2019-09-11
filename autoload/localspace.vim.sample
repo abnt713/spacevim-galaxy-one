@@ -1,0 +1,4 @@
+function! localspace#before() abort
+  let g:python_host_prog = '/path/to/python2'
+  let g:python3_host_prog = '/path/to/python3'
+endfunction
